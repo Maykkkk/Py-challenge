@@ -1,0 +1,19 @@
+This document explains the code for a simple sample application that simulates Brownian motion using a robot moving within a rectangular arena.
+
+Code Effectiveness:
+
+The provided code effectively simulates Brownian motion by:
+
+    Utilizing a Robot class to encapsulate the robot's position, direction, and collision state.
+    Implementing a move function that updates the robot's position based on its direction and a random speed.
+    Employing collision detection to keep the robot within the arena boundaries.
+    Including a rotate function to introduce random changes in direction.
+    Visualizing the simulation using Pygame to draw the arena, robot, and robot's path (trail).
+
+Time Execution:
+
+The execution time of the simulation depends on several factors:
+
+    Number of Steps (num_steps): This variable determines the number of times the robot's position is updated. A higher value results in a longer simulation and increased execution time.
+    Processing Power: The speed of the computer running the simulation impacts how quickly calculations are performed.
+    Complexity of Visualization: The trail drawing adds some overhead compared to a simpler visualization. However, the impact is likely minimal compared to the overall simulation logic.
